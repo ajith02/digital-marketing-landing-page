@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Landing Page</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lexend:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Fontawseome CDN -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        
+        <nav class="navbar">
+            <img src="img/logo.png" alt="logo" class="logo">
+
+            <!-- Navlinks -->
+            <ul class="links-container">
+                <li class="link-items"><a href="#hero-section" class="links" onclick="navbar()">Home</a></li>
+                <li class="link-items"><a href="#service-section" class="links" onclick="navbar()">Services</a></li>
+                <li class="link-items"><a href="#about-section"class="links" onclick="navbar()">About us</a></li>
+                <li class="link-items"><a href="#contact-section" class="links" onclick="navbar()">Contact us</a></li>
+            </ul>
+
+            <div class="nav-toggle" onclick="navbar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero-section">
+            
+            <!-- Hero section -->
+            <div class="hero-info">
+                <h1 class="hero-heading">Reach Your <span>Potential</span> Audience</h1>
+                <p class="hero-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur ligula lacinia, elementum nunc nec, commodo arcu. Morbi congue, magna ut</p>
+
+                <!-- Action buttons -->
+                <div class="hero-action-buttons">
+                    <a class="btn primary-btn" href="#contact-section">Contact us</a>
+                    <a class="btn secondary-btn">Discover</a>
+                </div>
+            </div>
+
+            <!-- Hero img container -->
+            <div class="hero-section-img-container">
+
+                <div class="background-element"></div>
+                <img src="img/header.png" data-aos="zoom-out" alt="hero-img" class="hero-img">
+
+                <a href="#" class="hero-img-social-link" data-aos="zoom-out" data-aos-delay="450"><img src="img/youtube.png" alt="youtube"></a>
+
+                <div class="subscribers" data-aos="zoom-out" data-aos-delay="300">
+                    <h1>1.50M+</h1>
+                    <p>Subscribers</p>
+                </div>
+
+                <div class="hero-review" data-aos="zoom-out" data-aos-delay="600">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>When I started my channel, I didn’t knew how I can make it successful. These guys just helped me make my dream come true.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand section -->
+        <section class="brands-section">
+            <p class="section-secondary-line">Worked with 20+ leading brands</p>
+
+            <div class="brands-container">
+                <div class="brand"><img src="img/microsoft.png" class="brand-img" alt="brand-img"></div>
+                <div class="brand"><img src="img/instagram.png" class="brand-img" alt="brand-img"></div>
+                <div class="brand"><img src="img/netflix.png" class="brand-img" alt="brand-img"></div>
+                <div class="brand"><img src="img/slack.png" class="brand-img" alt="brand-img"></div>
+                <div class="brand"><img src="img/youtube.png" class="brand-img" alt="brand-img"></div>
+                <div class="brand"><img src="img/google.png" class="brand-img" alt="brand-img"></div>
+                <div class="brand"><img src="img/amazon.png" class="brand-img" alt="brand-img"></div>
+                <div class="brand"><img src="img/facebook.png" class="brand-img" alt="brand-img"></div>
+                <div class="brand"><img src="img/apple.png" class="brand-img" alt="brand-img"></div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section id="about-section">
+            <div class="about-us-img-container">
+                <div class="about-us-img">
+                    <img src="img/about.png" class="about-img" data-aos="zoom-out" data-aos-delay="250" alt="about-img">
+                </div>
+
+                <a href="#" class="about-img-social-link" data-aos="zoom-in-up" data-aos-delay="250"><img src="img/instagram.png" alt="social -link"></a>
+                <a href="#" class="about-img-social-link" data-aos="zoom-in-up" data-aos-delay="300"><img src="img/facebook.png" alt="social -link"></a>
+                <a href="#" class="about-img-social-link" data-aos="zoom-in-up" data-aos-delay="350"><img src="img/twitter.png" alt="social -link"></a>
+                <a href="#" class="about-img-social-link" data-aos="zoom-in-up" data-aos-delay="400"><img src="img/youtube.png" alt="social -link"></a>
+            </div>
+
+            <div class="about-us">
+                <p class="section-secondary-line">
+                    Target the right audience and
+                </p>
+                <h3 class="section-title">Grow your business with us</h3>
+
+                <div class="benefit-card">
+                    <div class="card-img">
+                        <img src="img/grow.png" alt="img">
+                    </div>
+                    <p class="card-name">Get more traffic</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="card-img">
+                        <img src="img/audience.png" alt="img">
+                    </div>
+                    <p class="card-name">Connect with your audience</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="card-img">
+                        <img src="img/sell.png" alt="img">
+                    </div>
+                    <p class="card-name">Sell your product to right audience</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="card-img">
+                        <img src="img/relation.png" alt="img">
+                    </div>
+                    <p class="card-name">Build a strong relation </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service section -->
+        <section id="service-section">
+
+            <h3 class="section-title">We offer a wide variety of services</h3>
+            <p class="section-secondary-line">to fit your need</p>
+
+            <!-- service card -->
+            <div class="service-container">
+                <div class="service-card">
+                    
+                <div class="service">
+                    <div class="service-img">
+                        <img src="img/market-planning.png" alt="service-img">
+                    </div>
+                    <p class="service-name">Market Planning</p>
+                </div>
+                <p class="service-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur ligula lacinia, elementum nunc nec</p>
+                </div>
+
+                <div class="service-card">
+
+                <div class="service">
+                    <div class="service-img">
+                        <img src="img/seo.png" alt="service-img">
+                    </div>
+                    <p class="service-name">SEO & Backlinking</p>
+                </div>
+                <p class="service-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur ligula lacinia, elementum nunc nec</p>
+                </div>
+
+                <div class="service-card">
+
+                <div class="service">
+                    <div class="service-img">
+                        <img src="img/social-marketing.png" alt="service-img">
+                    </div>
+                    <p class="service-name">Social media marketing</p>
+                </div>
+                <p class="service-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur ligula lacinia, elementum nunc nec</p>
+                </div>
+
+                <div class="service-card">
+
+                <div class="service">
+                    <div class="service-img">
+                        <img src="img/digital-marketing.png" alt="service-img">
+                    </div>
+                    <p class="service-name">Digital Marketing</p>
+                </div>
+                <p class="service-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur ligula lacinia, elementum nunc nec</p>
+                </div>
+            
+                <div class="service-card">
+
+                <div class="service">
+                    <div class="service-img">
+                        <img src="img/content-marketing.png" alt="service-img">
+                    </div>
+                    <p class="service-name">Content Marketing</p>
+                </div>
+                <p class="service-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur ligula lacinia, elementum nunc nec</p>
+                </div>
+
+                <div class="service-card">
+
+                <div class="service">
+                    <div class="service-img">
+                        <img src="img/market-analysis.png" alt="service-img">
+                    </div>
+                    <p class="service-name">Market Analysis</p>
+                </div>
+                <p class="service-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur ligula lacinia, elementum nunc nec</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Faq -->
+        <section id="faq-section">
+            <p class="section-secondary-line">Still have any question</p>
+            <h3 class="section-title">Frequently asked questions</h3>
+
+            <div class="faq">
+                <div class="question-box">
+                    <h3 class="question">What is digital marketing ?</h3>
+                    <i class="fa-solid fa-caret-up"></i>
+                </div>
+                <div class="answer-box">
+                    <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="question-box">
+                    <h3 class="question">What are the benefits of digital marketing ?</h3>
+                    <i class="fa-solid fa-caret-up"></i>
+                </div>
+                <div class="answer-box">
+                    <p class="answer">Digital marketing offers several benefits, including increased brand visibility, targeted marketing, measurable results, and cost-effectiveness. It allows you to better understand your customers, to reach them more effectively, and to build a strong, loyal following.</p>
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="question-box">
+                    <h3 class="question">What are the different types of digital marketing ?</h3>
+                    <i class="fa-solid fa-caret-up"></i>
+                </div>
+                <div class="answer-box">
+                    <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="question-box">
+                    <h3 class="question">What is SEO ?</h3>
+                    <i class="fa-solid fa-caret-up"></i>
+                </div>
+                <div class="answer-box">
+                    <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="question-box">
+                    <h3 class="question">What is content marketing ?</h3>
+                    <i class="fa-solid fa-caret-up"></i>
+                </div>
+                <div class="answer-box">
+                    <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact-section">
+            <div class="contact-us-img-container">
+                <img src="img/contact.png" alt="contact-img" class="contact-us-img" data-aos="zoom-out">
+
+                <a href="#" class="contact-image-social-links" data-aos="zoom-in-up" data-aos-delay="250">
+                    <img src="img/instagram.png" alt="social-img">
+                </a>
+
+                <a href="#" class="contact-image-social-links" data-aos="zoom-in-up" data-aos-delay="300">
+                    <img src="img/facebook.png" alt="social-img">
+                </a>
+
+                <a href="#" class="contact-image-social-links" data-aos="zoom-in-up" data-aos-delay="350">
+                    <img src="img/twitter.png" alt="social-img">
+                </a>
+
+                <a href="#" class="contact-image-social-links" data-aos="zoom-in-up" data-aos-delay="400">
+                    <img src="img/youtube.png" alt="social-img">
+                </a>
+            </div>
+
+            <div class="contact-us">
+                <h3 class="section-title">Contact us. So that we can provide the best strategy.</h3>
+
+                <form class="contact-form">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="goal" placeholder="Your Aim" required>
+                    <textarea name="body" placeholder="Tell us more about your business and need..." required></textarea>
+                    <button type="submit" class="btn primary-btn">Contact us</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="company-info">
+            <img src="img/logo.png" class="logo" alt="logo">
+
+            <div class="social-links">
+                <a href="#"><img src="img/instagram.png" alt="social-img"></a>
+                <a href="#"><img src="img/facebook.png" alt="social-img"></a>
+                <a href="#"><img src="img/twitter.png" alt="social-img"></a>
+                <a href="#"><img src="img/youtube.png" alt="social-img"></a>
+            </div>
+        </div>
+
+        <div class="useful-links footer-links-container">
+            <h5 class="footer-links-title">Useful Links</h5>
+            <a href="#" class="footer-links">Home</a>
+            <a href="#" class="footer-links">Services</a>
+            <a href="#" class="footer-links">Testimonials</a>
+        </div>
+
+        <div class="information footer-links-container">
+            <h5 class="footer-links-title">Information</h5>
+            <a href="#" class="footer-links">About Us</a>
+            <a href="#" class="footer-links">Privacy Policy</a>
+            <a href="#" class="footer-links">Terms & Conditions</a>
+            <a href="#" class="footer-links">What info we collect ?</a>
+        </div>
+
+        <div class="contact footer-links-container">
+            <h5 class="footer-links-title">Contact Us</h5>
+            <p class="footer-text">We are a Italian company based in italy.</p>
+            <p class="footer-text">Phone - +00 1234567890</p>
+            <p class="footer-text">Email - help@logo.com</p>
+        </div>
+    </footer>
+    <!-- scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
